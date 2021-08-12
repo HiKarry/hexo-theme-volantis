@@ -214,7 +214,7 @@ article:
 comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
-  service: valine # valine, twikoo, waline, minivaline, disqus, disqusjs, gitalk, vssue, livere, isso, hashover
+  service: waline # valine, twikoo, waline, minivaline, disqus, disqusjs, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine:
@@ -309,9 +309,10 @@ comments:
     meta: [nick,mail,link] # waline comment header info
     requiredFields: [nick,mail]
     serverURL: xxxxxxxxxxxxxxx # Waline 的服务端地址（必填） 测试用地址: https://waline-ruddy.vercel.app
-    avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
+    avatar: '' # gravatar style https://waline.js.org/client/basic.html#avatar
     pageSize: 10 # 评论每页显示数量
     lang: zh-CN
+    login: disable
 
 ############################### Comments ############################### > end
 
